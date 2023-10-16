@@ -1,0 +1,1536 @@
+{
+  "products": [
+    {
+      "id": 32,
+      "name": "Spicy seasoned seafood noodles",
+      "available": 20,
+      "image": "Image1.png",
+      "category_id": 2,
+      "default_size": "Medium",
+      "default_price": 3.49,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 2.29
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 3.49
+        },
+        "large": {
+          "name": "Large",
+          "price": 4.99
+        }
+      },
+      "extras": {
+        "lemon_wedges": {
+          "name": "Lemon Wedges",
+          "price": 0.5
+        },
+        "cilantro_garnish": {
+          "name": "Cilantro Garnish",
+          "price": 0.75
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 1,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 2,
+          "size": "Small",
+          "extras": [
+            "lemon_wedges"
+          ]
+        },
+        {
+          "combination_id": 3,
+          "size": "Small",
+          "extras": [
+            "cilantro_garnish"
+          ]
+        },
+        {
+          "combination_id": 4,
+          "size": "Small",
+          "extras": [
+            "lemon_wedges",
+            "cilantro_garnish"
+          ]
+        },
+        {
+          "combination_id": 5,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 6,
+          "size": "Medium",
+          "extras": [
+            "lemon_wedges"
+          ]
+        },
+        {
+          "combination_id": 7,
+          "size": "Medium",
+          "extras": [
+            "cilantro_garnish"
+          ]
+        },
+        {
+          "combination_id": 8,
+          "size": "Medium",
+          "extras": [
+            "lemon_wedges",
+            "cilantro_garnish"
+          ]
+        },
+        {
+          "combination_id": 9,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 10,
+          "size": "Large",
+          "extras": [
+            "lemon_wedges"
+          ]
+        },
+        {
+          "combination_id": 11,
+          "size": "Large",
+          "extras": [
+            "cilantro_garnish"
+          ]
+        },
+        {
+          "combination_id": 12,
+          "size": "Large",
+          "extras": [
+            "lemon_wedges",
+            "cilantro_garnish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Creamy tomato pasta",
+      "available": 15,
+      "image": "Image2.png",
+      "category_id": 5,
+      "default_size": "Medium",
+      "default_price": 3.49,
+      "sizes": {
+        "medium": {
+          "name": "Medium",
+          "price": 3.49
+        },
+        "large": {
+          "name": "Large",
+          "price": 5.99
+        }
+      },
+      "extras": {
+        "parmesan_cheese": {
+          "name": "Parmesan Cheese",
+          "price": 1
+        },
+        "garlic_bread": {
+          "name": "Garlic Bread",
+          "price": 1.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 13,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 14,
+          "size": "Medium",
+          "extras": [
+            "parmesan_cheese"
+          ]
+        },
+        {
+          "combination_id": 15,
+          "size": "Medium",
+          "extras": [
+            "garlic_bread"
+          ]
+        },
+        {
+          "combination_id": 16,
+          "size": "Medium",
+          "extras": [
+            "parmesan_cheese",
+            "garlic_bread"
+          ]
+        },
+        {
+          "combination_id": 17,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 18,
+          "size": "Large",
+          "extras": [
+            "parmesan_cheese"
+          ]
+        },
+        {
+          "combination_id": 19,
+          "size": "Large",
+          "extras": [
+            "garlic_bread"
+          ]
+        },
+        {
+          "combination_id": 20,
+          "size": "Large",
+          "extras": [
+            "parmesan_cheese",
+            "garlic_bread"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Vegetable stir-fry",
+      "available": 18,
+      "image": "Image3.png",
+      "category_id": 1,
+      "default_size": "Medium",
+      "default_price": 4.49,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 2.99
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 4.49
+        }
+      },
+      "extras": {
+        "soy_sauce": {
+          "name": "Soy Sauce",
+          "price": 0.75
+        },
+        "ginger": {
+          "name": "Ginger",
+          "price": 0.6
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 21,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 22,
+          "size": "Small",
+          "extras": [
+            "soy_sauce"
+          ]
+        },
+        {
+          "combination_id": 23,
+          "size": "Small",
+          "extras": [
+            "ginger"
+          ]
+        },
+        {
+          "combination_id": 24,
+          "size": "Small",
+          "extras": [
+            "soy_sauce",
+            "ginger"
+          ]
+        },
+        {
+          "combination_id": 25,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 26,
+          "size": "Medium",
+          "extras": [
+            "soy_sauce"
+          ]
+        },
+        {
+          "combination_id": 27,
+          "size": "Medium",
+          "extras": [
+            "ginger"
+          ]
+        },
+        {
+          "combination_id": 28,
+          "size": "Medium",
+          "extras": [
+            "soy_sauce",
+            "ginger"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Classic Margherita Pizza",
+      "available": 12,
+      "image": "Image5.png",
+      "category_id": 3,
+      "default_size": "Medium",
+      "default_price": 5.99,
+      "sizes": {
+        "medium": {
+          "name": "Medium",
+          "price": 5.99
+        },
+        "large": {
+          "name": "Large",
+          "price": 8.49
+        }
+      },
+      "extras": {
+        "fresh_basil": {
+          "name": "Fresh Basil",
+          "price": 1.25
+        },
+        "balsamic_glaze": {
+          "name": "Balsamic Glaze",
+          "price": 1
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 29,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 30,
+          "size": "Medium",
+          "extras": [
+            "fresh_basil"
+          ]
+        },
+        {
+          "combination_id": 31,
+          "size": "Medium",
+          "extras": [
+            "balsamic_glaze"
+          ]
+        },
+        {
+          "combination_id": 32,
+          "size": "Medium",
+          "extras": [
+            "fresh_basil",
+            "balsamic_glaze"
+          ]
+        },
+        {
+          "combination_id": 33,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 34,
+          "size": "Large",
+          "extras": [
+            "fresh_basil"
+          ]
+        },
+        {
+          "combination_id": 35,
+          "size": "Large",
+          "extras": [
+            "balsamic_glaze"
+          ]
+        },
+        {
+          "combination_id": 36,
+          "size": "Large",
+          "extras": [
+            "fresh_basil",
+            "balsamic_glaze"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "Garlic Butter Shrimp",
+      "available": 14,
+      "image": "Image5.png",
+      "category_id": 1,
+      "default_size": "Medium",
+      "default_price": 6.79,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 6.79
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 8.99
+        },
+        "large": {
+          "name": "Large",
+          "price": 11.49
+        }
+      },
+      "extras": {
+        "lemon_butter_sauce": {
+          "name": "Lemon Butter Sauce",
+          "price": 1.5
+        },
+        "parsley_garnish": {
+          "name": "Parsley Garnish",
+          "price": 0.75
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 37,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 38,
+          "size": "Small",
+          "extras": [
+            "lemon_butter_sauce"
+          ]
+        },
+        {
+          "combination_id": 39,
+          "size": "Small",
+          "extras": [
+            "parsley_garnish"
+          ]
+        },
+        {
+          "combination_id": 40,
+          "size": "Small",
+          "extras": [
+            "lemon_butter_sauce",
+            "parsley_garnish"
+          ]
+        },
+        {
+          "combination_id": 41,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 42,
+          "size": "Medium",
+          "extras": [
+            "lemon_butter_sauce"
+          ]
+        },
+        {
+          "combination_id": 43,
+          "size": "Medium",
+          "extras": [
+            "parsley_garnish"
+          ]
+        },
+        {
+          "combination_id": 44,
+          "size": "Medium",
+          "extras": [
+            "lemon_butter_sauce",
+            "parsley_garnish"
+          ]
+        },
+        {
+          "combination_id": 45,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 46,
+          "size": "Large",
+          "extras": [
+            "lemon_butter_sauce"
+          ]
+        },
+        {
+          "combination_id": 47,
+          "size": "Large",
+          "extras": [
+            "parsley_garnish"
+          ]
+        },
+        {
+          "combination_id": 48,
+          "size": "Large",
+          "extras": [
+            "lemon_butter_sauce",
+            "parsley_garnish"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Chicken Alfredo",
+      "available": 17,
+      "image": "Image6.png",
+      "category_id": 6,
+      "default_size": "Medium",
+      "default_price": 4.99,
+      "sizes": {
+        "medium": {
+          "name": "Medium",
+          "price": 4.99
+        },
+        "large": {
+          "name": "Large",
+          "price": 7.49
+        }
+      },
+      "extras": {
+        "creamy_alfredo_sauce": {
+          "name": "Creamy Alfredo Sauce",
+          "price": 1.25
+        },
+        "grilled_chicken_strips": {
+          "name": "Grilled Chicken Strips",
+          "price": 2
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 49,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 50,
+          "size": "Medium",
+          "extras": [
+            "creamy_alfredo_sauce"
+          ]
+        },
+        {
+          "combination_id": 51,
+          "size": "Medium",
+          "extras": [
+            "grilled_chicken_strips"
+          ]
+        },
+        {
+          "combination_id": 52,
+          "size": "Medium",
+          "extras": [
+            "creamy_alfredo_sauce",
+            "grilled_chicken_strips"
+          ]
+        },
+        {
+          "combination_id": 53,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 54,
+          "size": "Large",
+          "extras": [
+            "creamy_alfredo_sauce"
+          ]
+        },
+        {
+          "combination_id": 55,
+          "size": "Large",
+          "extras": [
+            "grilled_chicken_strips"
+          ]
+        },
+        {
+          "combination_id": 56,
+          "size": "Large",
+          "extras": [
+            "creamy_alfredo_sauce",
+            "grilled_chicken_strips"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Vegetarian Tofu Stir-Fry",
+      "available": 19,
+      "image": "Image5.png",
+      "category_id": 1,
+      "default_size": "Medium",
+      "default_price": 5.29,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 3.79
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 5.29
+        }
+      },
+      "extras": {
+        "soy_sauce": {
+          "name": "Soy Sauce",
+          "price": 0.75
+        },
+        "cashew_nuts": {
+          "name": "Cashew Nuts",
+          "price": 1
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 57,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 58,
+          "size": "Small",
+          "extras": [
+            "soy_sauce"
+          ]
+        },
+        {
+          "combination_id": 59,
+          "size": "Small",
+          "extras": [
+            "cashew_nuts"
+          ]
+        },
+        {
+          "combination_id": 60,
+          "size": "Small",
+          "extras": [
+            "soy_sauce",
+            "cashew_nuts"
+          ]
+        },
+        {
+          "combination_id": 61,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 62,
+          "size": "Medium",
+          "extras": [
+            "soy_sauce"
+          ]
+        },
+        {
+          "combination_id": 63,
+          "size": "Medium",
+          "extras": [
+            "cashew_nuts"
+          ]
+        },
+        {
+          "combination_id": 64,
+          "size": "Medium",
+          "extras": [
+            "soy_sauce",
+            "cashew_nuts"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Beef and Broccoli",
+      "available": 16,
+      "image": "Image2.png",
+      "category_id": 6,
+      "default_size": "Medium",
+      "default_price": 5.49,
+      "sizes": {
+        "medium": {
+          "name": "Medium",
+          "price": 5.49
+        },
+        "large": {
+          "name": "Large",
+          "price": 7.99
+        }
+      },
+      "extras": {
+        "oyster_sauce": {
+          "name": "Oyster Sauce",
+          "price": 1
+        },
+        "green_onions": {
+          "name": "Green Onions",
+          "price": 0.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 65,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 66,
+          "size": "Medium",
+          "extras": [
+            "oyster_sauce"
+          ]
+        },
+        {
+          "combination_id": 67,
+          "size": "Medium",
+          "extras": [
+            "green_onions"
+          ]
+        },
+        {
+          "combination_id": 68,
+          "size": "Medium",
+          "extras": [
+            "oyster_sauce",
+            "green_onions"
+          ]
+        },
+        {
+          "combination_id": 69,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 70,
+          "size": "Large",
+          "extras": [
+            "oyster_sauce"
+          ]
+        },
+        {
+          "combination_id": 71,
+          "size": "Large",
+          "extras": [
+            "green_onions"
+          ]
+        },
+        {
+          "combination_id": 72,
+          "size": "Large",
+          "extras": [
+            "oyster_sauce",
+            "green_onions"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Chocolate Brownie Sundae",
+      "available": 10,
+      "image": "Image6.png",
+      "category_id": 5,
+      "default_size": "Single",
+      "default_price": 4.29,
+      "sizes": {
+        "single": {
+          "name": "Single",
+          "price": 4.29
+        },
+        "double": {
+          "name": "Double",
+          "price": 6.49
+        }
+      },
+      "extras": {
+        "whipped_cream": {
+          "name": "Whipped Cream",
+          "price": 0.75
+        },
+        "chocolate_sauce": {
+          "name": "Chocolate Sauce",
+          "price": 0.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 73,
+          "size": "Single",
+          "extras": []
+        },
+        {
+          "combination_id": 74,
+          "size": "Single",
+          "extras": [
+            "whipped_cream"
+          ]
+        },
+        {
+          "combination_id": 75,
+          "size": "Single",
+          "extras": [
+            "chocolate_sauce"
+          ]
+        },
+        {
+          "combination_id": 76,
+          "size": "Single",
+          "extras": [
+            "whipped_cream",
+            "chocolate_sauce"
+          ]
+        },
+        {
+          "combination_id": 77,
+          "size": "Double",
+          "extras": []
+        },
+        {
+          "combination_id": 78,
+          "size": "Double",
+          "extras": [
+            "whipped_cream"
+          ]
+        },
+        {
+          "combination_id": 79,
+          "size": "Double",
+          "extras": [
+            "chocolate_sauce"
+          ]
+        },
+        {
+          "combination_id": 80,
+          "size": "Double",
+          "extras": [
+            "whipped_cream",
+            "chocolate_sauce"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Chicken Quesadilla",
+      "available": 21,
+      "image": "Image3.png",
+      "category_id": 3,
+      "default_size": "Small",
+      "default_price": 3.99,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 3.99
+        },
+        "large": {
+          "name": "Large",
+          "price": 6.49
+        }
+      },
+      "extras": {
+        "sour_cream": {
+          "name": "Sour Cream",
+          "price": 0.75
+        },
+        "salsa": {
+          "name": "Salsa",
+          "price": 0.6
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 81,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 82,
+          "size": "Small",
+          "extras": [
+            "sour_cream"
+          ]
+        },
+        {
+          "combination_id": 83,
+          "size": "Small",
+          "extras": [
+            "salsa"
+          ]
+        },
+        {
+          "combination_id": 84,
+          "size": "Small",
+          "extras": [
+            "sour_cream",
+            "salsa"
+          ]
+        },
+        {
+          "combination_id": 85,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 86,
+          "size": "Large",
+          "extras": [
+            "sour_cream"
+          ]
+        },
+        {
+          "combination_id": 87,
+          "size": "Large",
+          "extras": [
+            "salsa"
+          ]
+        },
+        {
+          "combination_id": 88,
+          "size": "Large",
+          "extras": [
+            "sour_cream",
+            "salsa"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Pesto Pasta",
+      "available": 13,
+      "image": "Image1.png",
+      "category_id": 1,
+      "default_size": "Small",
+      "default_price": 4.49,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 4.49
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 6.29
+        }
+      },
+      "extras": {
+        "pine_nuts": {
+          "name": "Pine Nuts",
+          "price": 1.25
+        },
+        "cherry_tomatoes": {
+          "name": "Cherry Tomatoes",
+          "price": 1
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 89,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 90,
+          "size": "Small",
+          "extras": [
+            "pine_nuts"
+          ]
+        },
+        {
+          "combination_id": 91,
+          "size": "Small",
+          "extras": [
+            "cherry_tomatoes"
+          ]
+        },
+        {
+          "combination_id": 92,
+          "size": "Small",
+          "extras": [
+            "pine_nuts",
+            "cherry_tomatoes"
+          ]
+        },
+        {
+          "combination_id": 93,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 94,
+          "size": "Medium",
+          "extras": [
+            "pine_nuts"
+          ]
+        },
+        {
+          "combination_id": 95,
+          "size": "Medium",
+          "extras": [
+            "cherry_tomatoes"
+          ]
+        },
+        {
+          "combination_id": 96,
+          "size": "Medium",
+          "extras": [
+            "pine_nuts",
+            "cherry_tomatoes"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Strawberry Cheesecake",
+      "available": 8,
+      "image": "Image2.png",
+      "category_id": 5,
+      "default_size": "Slice",
+      "default_price": 5.29,
+      "sizes": {
+        "slice": {
+          "name": "Slice",
+          "price": 5.29
+        },
+        "whole": {
+          "name": "Whole",
+          "price": 9.99
+        }
+      },
+      "extras": {
+        "fresh_strawberries": {
+          "name": "Fresh Strawberries",
+          "price": 1.5
+        },
+        "whipped_cream": {
+          "name": "Whipped Cream",
+          "price": 1
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 97,
+          "size": "Slice",
+          "extras": []
+        },
+        {
+          "combination_id": 98,
+          "size": "Slice",
+          "extras": [
+            "fresh_strawberries"
+          ]
+        },
+        {
+          "combination_id": 99,
+          "size": "Slice",
+          "extras": [
+            "whipped_cream"
+          ]
+        },
+        {
+          "combination_id": 100,
+          "size": "Slice",
+          "extras": [
+            "fresh_strawberries",
+            "whipped_cream"
+          ]
+        },
+        {
+          "combination_id": 101,
+          "size": "Whole",
+          "extras": []
+        },
+        {
+          "combination_id": 102,
+          "size": "Whole",
+          "extras": [
+            "fresh_strawberries"
+          ]
+        },
+        {
+          "combination_id": 103,
+          "size": "Whole",
+          "extras": [
+            "whipped_cream"
+          ]
+        },
+        {
+          "combination_id": 104,
+          "size": "Whole",
+          "extras": [
+            "fresh_strawberries",
+            "whipped_cream"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "BBQ Pulled Pork Sandwich",
+      "available": 9,
+      "image": "Image3.png",
+      "category_id": 3,
+      "default_size": "Small",
+      "default_price": 6.49,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 6.49
+        },
+        "large": {
+          "name": "Large",
+          "price": 9.99
+        }
+      },
+      "extras": {
+        "cole_slaw": {
+          "name": "Cole Slaw",
+          "price": 0.75
+        },
+        "pickles": {
+          "name": "Pickles",
+          "price": 0.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 105,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 106,
+          "size": "Small",
+          "extras": [
+            "cole_slaw"
+          ]
+        },
+        {
+          "combination_id": 107,
+          "size": "Small",
+          "extras": [
+            "pickles"
+          ]
+        },
+        {
+          "combination_id": 108,
+          "size": "Small",
+          "extras": [
+            "cole_slaw",
+            "pickles"
+          ]
+        },
+        {
+          "combination_id": 109,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 110,
+          "size": "Large",
+          "extras": [
+            "cole_slaw"
+          ]
+        },
+        {
+          "combination_id": 111,
+          "size": "Large",
+          "extras": [
+            "pickles"
+          ]
+        },
+        {
+          "combination_id": 112,
+          "size": "Large",
+          "extras": [
+            "cole_slaw",
+            "pickles"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Mushroom Risotto",
+      "available": 11,
+      "image": "Image1.png",
+      "category_id": 1,
+      "default_size": "Single Serving",
+      "default_price": 4.79,
+      "sizes": {
+        "single_serving": {
+          "name": "Single Serving",
+          "price": 4.79
+        },
+        "family_size": {
+          "name": "Family Size",
+          "price": 8.99
+        }
+      },
+      "extras": {
+        "truffle_oil": {
+          "name": "Truffle Oil",
+          "price": 2
+        },
+        "parmesan_shavings": {
+          "name": "Parmesan Shavings",
+          "price": 1.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 113,
+          "size": "Single Serving",
+          "extras": []
+        },
+        {
+          "combination_id": 114,
+          "size": "Single Serving",
+          "extras": [
+            "truffle_oil"
+          ]
+        },
+        {
+          "combination_id": 115,
+          "size": "Single Serving",
+          "extras": [
+            "parmesan_shavings"
+          ]
+        },
+        {
+          "combination_id": 116,
+          "size": "Single Serving",
+          "extras": [
+            "truffle_oil",
+            "parmesan_shavings"
+          ]
+        },
+        {
+          "combination_id": 117,
+          "size": "Family Size",
+          "extras": []
+        },
+        {
+          "combination_id": 118,
+          "size": "Family Size",
+          "extras": [
+            "truffle_oil"
+          ]
+        },
+        {
+          "combination_id": 119,
+          "size": "Family Size",
+          "extras": [
+            "parmesan_shavings"
+          ]
+        },
+        {
+          "combination_id": 120,
+          "size": "Family Size",
+          "extras": [
+            "truffle_oil",
+            "parmesan_shavings"
+          ]
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Crispy Chicken Tenders",
+      "available": 22,
+      "image": "Image1.png",
+      "category_id": 4,
+      "default_size": "Medium",
+      "default_price": 5.49,
+      "sizes": {
+        "small": {
+          "name": "Small",
+          "price": 3.59
+        },
+        "medium": {
+          "name": "Medium",
+          "price": 5.49
+        },
+        "large": {
+          "name": "Large",
+          "price": 7.99
+        }
+      },
+      "extras": {
+        "honey_mustard_dip": {
+          "name": "Honey Mustard Dip",
+          "price": 0.75
+        },
+        "french_fries": {
+          "name": "French Fries",
+          "price": 1.5
+        }
+      },
+      "combinations": [
+        {
+          "combination_id": 121,
+          "size": "Small",
+          "extras": []
+        },
+        {
+          "combination_id": 122,
+          "size": "Small",
+          "extras": [
+            "honey_mustard_dip"
+          ]
+        },
+        {
+          "combination_id": 123,
+          "size": "Small",
+          "extras": [
+            "french_fries"
+          ]
+        },
+        {
+          "combination_id": 124,
+          "size": "Small",
+          "extras": [
+            "honey_mustard_dip",
+            "french_fries"
+          ]
+        },
+        {
+          "combination_id": 125,
+          "size": "Medium",
+          "extras": []
+        },
+        {
+          "combination_id": 126,
+          "size": "Medium",
+          "extras": [
+            "honey_mustard_dip"
+          ]
+        },
+        {
+          "combination_id": 127,
+          "size": "Medium",
+          "extras": [
+            "french_fries"
+          ]
+        },
+        {
+          "combination_id": 128,
+          "size": "Medium",
+          "extras": [
+            "honey_mustard_dip",
+            "french_fries"
+          ]
+        },
+        {
+          "combination_id": 129,
+          "size": "Large",
+          "extras": []
+        },
+        {
+          "combination_id": 130,
+          "size": "Large",
+          "extras": [
+            "honey_mustard_dip"
+          ]
+        },
+        {
+          "combination_id": 131,
+          "size": "Large",
+          "extras": [
+            "french_fries"
+          ]
+        },
+        {
+          "combination_id": 132,
+          "size": "Large",
+          "extras": [
+            "honey_mustard_dip",
+            "french_fries"
+          ]
+        }
+      ]
+    }
+  ],
+  "orders": [
+    {
+      "payment": "cash",
+      "first_name": "",
+      "last_name": "",
+      "order_address": "",
+      "order_phone": "",
+      "items": [
+        {
+          "id": 42,
+          "name": "Pesto Pasta",
+          "quantity": 1,
+          "size": "small",
+          "extras": [
+            "pine_nuts",
+            "cherry_tomatoes"
+          ],
+          "totalPrice": 7.74
+        }
+      ],
+      "id": 34563
+    },
+    {
+      "payment": "cash",
+      "first_name": "Mihail",
+      "last_name": "Temofiichuk",
+      "type_of_order": "Dine In",
+      "order_address": "",
+      "order_phone": "+380444444412",
+      "items": [
+        {
+          "product_id": 34,
+          "name": "Vegetable stir-fry",
+          "available": 18,
+          "image": "Image3.png",
+          "price": 4.49,
+          "combination_price": "4.49",
+          "size": "Medium",
+          "total_price": "4.49",
+          "quantity": 1,
+          "comment": "",
+          "extras": {},
+          "combination_id": 25
+        }
+      ],
+      "id": 34573
+    },
+    {
+      "payment": "cash",
+      "first_name": "Mihail",
+      "last_name": "Temofiichuk",
+      "type_of_order": "Delivery",
+      "order_address": "Home 123",
+      "order_phone": "+380444444412",
+      "items": [
+        {
+          "product_id": 34,
+          "name": "Vegetable stir-fry",
+          "available": 18,
+          "image": "Image3.png",
+          "price": 4.49,
+          "combination_price": "5.84",
+          "size": "Medium",
+          "total_price": "23.36",
+          "quantity": 4,
+          "comment": "Some TExt",
+          "extras": {
+            "ginger": {
+              "name": "Ginger",
+              "price": 0.6
+            },
+            "soy_sauce": {
+              "name": "Soy Sauce",
+              "price": 0.75
+            }
+          },
+          "combination_id": 28
+        },
+        {
+          "product_id": 34,
+          "name": "Vegetable stir-fry",
+          "available": 18,
+          "image": "Image3.png",
+          "price": 4.49,
+          "combination_price": "5.24",
+          "size": "Medium",
+          "total_price": "5.24",
+          "quantity": 1,
+          "comment": ".item__prices-info",
+          "extras": {
+            "soy_sauce": {
+              "name": "Soy Sauce",
+              "price": 0.75
+            }
+          },
+          "combination_id": 26
+        },
+        {
+          "product_id": 45,
+          "name": "Mushroom Risotto",
+          "available": 11,
+          "image": "Image1.png",
+          "price": 4.79,
+          "combination_price": "8.29",
+          "size": "Single Serving",
+          "total_price": "8.29",
+          "quantity": 1,
+          "comment": ".item__prices-info",
+          "extras": {
+            "parmesan_shavings": {
+              "name": "Parmesan Shavings",
+              "price": 1.5
+            },
+            "truffle_oil": {
+              "name": "Truffle Oil",
+              "price": 2
+            }
+          },
+          "combination_id": 116
+        },
+        {
+          "product_id": 34,
+          "name": "Vegetable stir-fry",
+          "available": 18,
+          "image": "Image3.png",
+          "price": 4.49,
+          "combination_price": "4.49",
+          "size": "Medium",
+          "total_price": "4.49",
+          "quantity": 1,
+          "comment": ".item__prices-info",
+          "extras": {},
+          "combination_id": 25
+        }
+      ],
+      "id": 34574
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Hot Dishes"
+    },
+    {
+      "id": 2,
+      "name": "Cold Dishes"
+    },
+    {
+      "id": 3,
+      "name": "Soup"
+    },
+    {
+      "id": 4,
+      "name": "Grill"
+    },
+    {
+      "id": 5,
+      "name": "Dessert"
+    },
+    {
+      "id": 6,
+      "name": "Appetizer"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+#choice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: $bg-dark-2;
+  padding: 24px;
+  z-index: 10;
+  width: 100%;
+  max-width: 400px;
+  flex-direction: column;
+  border-radius: 24px;
+  display: none;
+  gap: 24px;
+  box-shadow: 0 0 15px rgba(170, 90, 0, 0.3);
+  font-size: 16px;
+  font-weight: $semi-bold;
+
+  &.open {
+    display: flex;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+  }
+
+  input {
+    display: none;
+  }
+
+  button {
+    display: flex;
+    gap: 10px;
+  }
+}

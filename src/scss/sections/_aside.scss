@@ -1,0 +1,107 @@
+
+
+aside {
+  background: $bg-dark-2;
+  height: 100vh;
+  border-radius: 0 16px 16px 0;
+  min-width:$aside-width;
+  position: fixed;
+
+
+  .bg-logo {
+    background: $orange_alfa25;
+    padding: 8px;
+    border-radius: 12px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+
+    li {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 104px;
+      z-index: 3;
+      cursor: pointer;
+
+      &.active {
+        svg path {
+          transition: fill .35s;
+          fill: #E0E6E9;
+        }
+      }
+
+      &:last-child {
+        margin-top: auto;
+      }
+    }
+  }
+
+  #bg_active1, #bg_active2 {
+    top: 104px;
+    position: absolute;
+    width: 104px;
+    height: auto;
+    aspect-ratio: 1/1;
+  }
+
+  #bg_active2  {
+    z-index: 1;
+    .bg-main {
+      background: $primary;
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      margin: 24px auto;
+      filter: drop-shadow(0 8px 24px $orange_alfa25);
+    }
+  }
+
+  #bg_active1 {
+    z-index: 0;
+    padding: 12px 0 12px 12px;
+
+    .bg-main {
+      background: $bg-dark-1;
+      width: calc(104px - 12px);
+      height: 100%;
+      border-radius: 12px 0 0 12px;
+    }
+
+    .corners {
+      width: 12px;
+      height: 12px;
+      position: absolute;
+      background: $bg-dark-1;
+      right: 0;
+
+      > div {
+        background: $bg-dark-2;
+        width: 12px;
+        height: 12px;
+      }
+
+      &.top {
+        top: 0;
+        > div {
+          border-bottom-right-radius: 12px;
+        }
+      }
+
+      &.bottom {
+        bottom: 0;
+        > div {
+          border-top-right-radius: 12px;
+        }
+      }
+    }
+
+
+  }
+
+}
