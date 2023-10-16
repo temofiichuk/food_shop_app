@@ -19,7 +19,7 @@ Builds the app in the development mode to the `dist` folder.\
 The filenames include the hashes.\
 Your app is ready to be deployed!
 
-### `npm run build`
+### `npm run build-prod`
 
 Builds the app for production to the `dist` folder.\
 The build is minified 
