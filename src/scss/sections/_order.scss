@@ -1,0 +1,111 @@
+#order {
+  position: fixed;
+  top: 0;
+  right: -406px;
+  margin: 6px;
+  height: calc(100vh - 12px);
+  z-index: 11;
+  background: $bg-dark-2;
+  padding: 24px;
+  min-width: 400px;
+  border-radius: 8px;
+  transition: right 0.35s $anima-rubber;
+
+  &.open {
+    right: 0;
+  }
+
+  .order__container,
+  form {
+    height: 100%;
+  }
+
+  .order__payment > div {
+    display: flex;
+  }
+
+  .order__content,
+  .order__form,
+  .order__name {
+    display: flex;
+    gap: $gap-default;
+    flex-direction: column;
+  }
+
+  .order__delivery,
+  .order__phone,
+  .order__name > div,
+  .order__payment,
+  .order__buttons {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  .order__content {
+    height: calc(100vh - 120px);
+    overflow: scroll;
+  }
+
+  .order__heading {
+    font-size: 28px;
+    font-weight: $semi-bold;
+    border-bottom: 1px solid $dark-line;
+    padding-bottom: $gap-default;
+  }
+
+  .order__delivery {
+    display: none;
+  }
+
+  [value="Delivery"] + .order__delivery {
+    display: flex;
+  }
+
+  label {
+    max-width: 100%;
+  }
+
+  .order__payment {
+    > div {
+      gap: 8px;
+      width: 100%;
+    }
+
+    label {
+      height: 64px;
+      width: 101px;
+      min-width: 100px;
+      display: flex;
+      justify-content: center;
+      flex-direction: column;
+      align-items: center;
+      transition: all 0.35s;
+    }
+
+    input {
+      display: none;
+
+      &:checked + label {
+        border: 1px solid $text-light;
+
+        &:after {
+          content: url("/src/img/icons/checkmark-circle.svg");
+          position: absolute;
+          top: 6px;
+          right: 6px;
+          transition: all 0.35s;
+        }
+      }
+    }
+  }
+
+  .order__buttons {
+    flex-direction: row;
+    margin-top: auto;
+
+    button {
+      width: 100%;
+    }
+  }
+}

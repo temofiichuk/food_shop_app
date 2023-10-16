@@ -1,0 +1,50 @@
+body {
+  background: $bg-dark-1;
+  color: $white;
+  font-size: 14px;
+  font-family: "Barlow", sans-serif;
+  font-weight: $regular;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+label {
+  background: $bg-form;
+  width: 100%;
+  max-width: max-content;
+  height: 40px;
+  border-radius: 8px;
+  border: 1px solid $dark-line;
+  padding: 0 14px;
+}
+
+input {
+  width: 100%;
+}
+
+input::placeholder {
+  color: $text-gray;
+  filter: drop-shadow(0 4px 4px $black_alfa25);
+}
+
+h1 {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.drop-shadow {
+  filter: drop-shadow(0 4px 4px $black_alfa25);
+}
+
+.main {
+  display: flex;
+  height: 100vh;
+}
+
+main {
+  margin: 24px 24px 24px calc($aside-width + 24px);
+  width: 100%;
+}

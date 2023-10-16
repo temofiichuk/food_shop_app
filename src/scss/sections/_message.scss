@@ -1,0 +1,27 @@
+#message {
+  position: absolute;
+  top: -1000px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: $bg-dark-1;
+  width: 100vw;
+  height: auto;
+  min-height: 40px;
+  z-index: 15;
+  transition: top 0.35s $anima-rubber;
+  font-size: 24px;
+  text-align: center;
+  text-wrap: normal;
+
+  &.success {
+    color: green;
+  }
+
+  &.fail {
+    color: red;
+  }
+
+  &.open {
+    top: 5px;
+  }
+}
